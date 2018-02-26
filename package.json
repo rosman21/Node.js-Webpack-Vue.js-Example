@@ -1,0 +1,39 @@
+{
+  "name": "webpack-nodejs-vuejs",
+  "version": "1.0.0",
+  "description": "Webpack with Nodejs example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:start": "webpack && npm run start"
+  },
+  "author": "Rene Osman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.3.1",
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^12.2.1",
+    "vue-template-compiler": "^2.3.4",
+    "webpack": "3.4.1",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^3.0.0"
+  }
+}
